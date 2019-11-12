@@ -9,4 +9,4 @@ This repository is not a single program and is not intended for install. All cod
 ### 2019 Team Members:
 - Conrad Selig (team lead)
  
-*Have you added code to this reposity but are not listed above? Feel free to add yourself.*
+*Have you added code to this repository but are not listed above? Feel free to add yourself.*
