@@ -10,6 +10,7 @@ This repository is not a single program and is not intended for install. All cod
 - Conrad Selig (team lead)
 - Matthew Mansfield
 - Talyn Meyer
+- Benjamin Millhouse
 
  
 *Have you added code to this repository but are not listed above? Feel free to add yourself.*
