@@ -13,5 +13,6 @@ This repository is not a single program and is not intended for install. All cod
 - Benjamin Millhouse
 - Justin Ketel
 - Justin Lewis (The better justin)
+- Romain Caille
  
 *Have you added code to this repository but are not listed above? Feel free to add yourself.*
