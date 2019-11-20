@@ -8,6 +8,10 @@ Date: 11 / 19 / 2020
 from easytello import tello
 import keyboard
 
+msg = """
+Program used to control Tello drone 
+
+"""
 
 def main():
     while True:
