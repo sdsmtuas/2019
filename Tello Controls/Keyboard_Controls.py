@@ -5,12 +5,19 @@ Date: 11 / 19 / 2020
 """
 # Control drone with keyboard commands
 # Possibly implement joystick commands
+from easytello import tello
+import keyboard
 
 
 def main():
     while True:
-        # if key:
-            # do something
+        try:
+            if keyboard.is_pressed('q'):
+                print("quitting program")
+                break
+        except (BaseException, Exception):
+            break
+
 
 if __name__ == '__main__':
     main()
