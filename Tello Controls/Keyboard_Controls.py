@@ -26,6 +26,9 @@ Program used to control Tello drone using keyboard bindings.
 Press Escape to quit.
 
 """
+# Note to self: pull before you push you dumb dumb
+
+drone = tello.Tello()
 
 def main():
     while True:
@@ -33,8 +36,25 @@ def main():
             if keyboard.is_pressed('q'):
                 print("quitting program")
                 break
-        except (BaseException, Exception):
-            break
+
+            if keyboard.is_pressed('\\'):
+                drone.takeoff()
+
+            if keyboard.is_pressed('/'):
+                drone.land()
+
+            if keyboard.is_pressed('i'):
+                drone.forward()
+
+            if keyboard.is_pressed('j'):
+                print("\n\tgoing left")
+                drone.left()
+
+            if keyboard.is_pressed('k'):
+                drone.back()
+
+            if keyboard.is_pressed('l'):
+                drone.right()
 
 
 if __name__ == '__main__':
