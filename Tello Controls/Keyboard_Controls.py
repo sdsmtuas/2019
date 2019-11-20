@@ -22,7 +22,8 @@ Program used to control Tello drone using keyboard bindings.
     s   ----> goDown
     d   ----> yawCW
     a   ----> yawCCW
-
+---------------------------------------
+Press Escape to quit.
 
 """
 
