@@ -9,7 +9,20 @@ from easytello import tello
 import keyboard
 
 msg = """
-Program used to control Tello drone 
+Program used to control Tello drone using keyboard bindings.
+---------------------------------------
+|            Tello Drone              |
+---------------------------------------
+    i   ----> pitchForward
+    k   ----> pitchBack
+    j   ----> rollLeft
+    l   ----> rollRight
+    ----------------------
+    w   ----> goUp
+    s   ----> goDown
+    d   ----> yawCW
+    a   ----> yawCCW
+
 
 """
 
