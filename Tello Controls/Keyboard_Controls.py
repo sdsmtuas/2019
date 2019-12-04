@@ -31,6 +31,7 @@ Press Escape to quit.
 drone = tello.Tello()
 
 def main():
+    print(drone.get_battery())
     while True:
         try:
             if keyboard.is_pressed('q'):
@@ -40,22 +41,37 @@ def main():
             if keyboard.is_pressed('\\'):
                 drone.takeoff()
 
+            if keyboard.is_pressed('w'):
+                drone.up(20)
+
+            if keyboard.is_pressed('s'):
+                drone.down(20)
+
+            if keyboard.is_pressed('a'):
+                drone.ccw(5)
+
+            if keyboard.is_pressed('d'):
+                drone.cw(5)
+
             if keyboard.is_pressed('/'):
                 drone.land()
 
             if keyboard.is_pressed('i'):
-                drone.forward()
+                drone.forward(20)
 
             if keyboard.is_pressed('j'):
                 print("\n\tgoing left")
-                drone.left()
+                drone.left(20)
 
             if keyboard.is_pressed('k'):
-                drone.back()
+                drone.back(20)
 
             if keyboard.is_pressed('l'):
-                drone.right()
+                drone.right(20)
 
+        except:
+            break
 
 if __name__ == '__main__':
     main()
+
